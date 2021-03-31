@@ -39,7 +39,7 @@ $tb_projek  = query("SELECT * FROM tb_projek ORDER BY id DESC");
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Home</a>
+                            <a class="nav-link" href="page.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">about</a>
@@ -75,7 +75,7 @@ $tb_projek  = query("SELECT * FROM tb_projek ORDER BY id DESC");
     <div class="container">
         <div class="">
           <div class="card-body">
-            <h6 class="card-title"><i class="fas fa-bars me-2 mt-2"></i>Data Tempat Wisata</h6>
+            <h6 class="card-title"><i class="fas fa-bars me-2 mt-2"></i>Data Project</h6>
             <a href="tambah.php" style="float: right; margin-top: -35px;" type="button" class="btn btn-primary"><i class="far fa-plus-square text-white me-2"></i>Tambah</a>
           </div>
 

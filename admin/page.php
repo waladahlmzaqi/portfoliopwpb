@@ -19,9 +19,9 @@ function tambahpesan($post){
   
   if (isset($_POST['submit'])) {
       if (tambahpesan($_POST) > 0) {
-          header('Location: dashboard.php');
+          header('Location: page.php');
       } else {
-          header('Location: dashboard.php>err');
+          header('Location: page.php>err');
       }
   }
 ?>
@@ -62,7 +62,7 @@ function tambahpesan($post){
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Home</a>
+                            <a class="nav-link" href="page.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">about</a>
@@ -80,7 +80,7 @@ function tambahpesan($post){
                             <a class="nav-link" href="#contact">contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php">data</a>
+                            <a class="nav-link" href="dashboard/dashboard.php">dashboard</a>
                         </li>
                     </ul>
                 </div>
@@ -339,7 +339,7 @@ function tambahpesan($post){
                                       <input type="email" class="form-control" placeholder="Email" name="email">
                                     </div>
                                     <div class="mb-3">
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="deskripsi"></textarea>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="pesan"></textarea>
                                     </div>
                                     <button class="btn btn-secondary" name="submit">Send</button>
                                 </form>

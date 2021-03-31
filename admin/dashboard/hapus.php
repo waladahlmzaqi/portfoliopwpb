@@ -1,5 +1,5 @@
 <?php
-require '../koneksi.php';
+require '../../koneksi.php';
 
 function deletedata($id)
 {
@@ -12,9 +12,9 @@ function deletedata($id)
 
 if (isset($_GET['id'])) {
     if (deletedata($_GET['id'])>0) {
-        echo "<script>alert('Data yang anda Hapus Sukses');window.location='index.php'</script>";
+        echo "<script>alert('Data yang anda Hapus Sukses');window.location='dashboard.php'</script>";
     }else{
-        header('Location: index.php?err');
+        header('Location: dashboard.php?err');
     }
 }
 ?>

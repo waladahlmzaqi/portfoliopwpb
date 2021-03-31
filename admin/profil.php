@@ -42,7 +42,7 @@ $tb_datadiri = query("SELECT * FROM tb_datadiri ORDER BY id DESC");
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Home</a>
+                            <a class="nav-link" href="page.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">about</a>
@@ -123,7 +123,7 @@ $tb_datadiri = query("SELECT * FROM tb_datadiri ORDER BY id DESC");
                               <label class="col-form-label"><h6 class="fw-light"><?= $tb_datadiri['sekolah'] ?></h6></label>
                             </div>
                           </div>
-                            <a href="../admin/dashboard.php" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-left me-2"></i>Kembali</a>
+                            <a href="../admin/page.php" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-left me-2"></i>Kembali</a>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
